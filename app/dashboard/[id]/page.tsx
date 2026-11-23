@@ -4,10 +4,7 @@ import { useParams, useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
 import toast from "react-hot-toast"
 
-interface Note {
-    title: string,
-    description: string
-}
+
 export default function Edit() {
     const router = useRouter()
     const { id } = useParams()
