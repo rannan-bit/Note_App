@@ -3,7 +3,7 @@
 
 import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
-import Header from '@/app/components/Header'
+import Header from "../components/Header"
 import Link from "next/link"
 
 interface Note {
