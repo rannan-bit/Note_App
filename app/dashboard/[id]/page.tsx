@@ -1,13 +1,12 @@
 "use client"
 
 import { useParams, useRouter } from "next/navigation"
-import { title } from "process"
 import { useEffect, useState } from "react"
 import toast from "react-hot-toast"
 
 interface Note {
-    title: String,
-    description: String
+    title: string,
+    description: string
 }
 export default function Edit() {
     const router = useRouter()
